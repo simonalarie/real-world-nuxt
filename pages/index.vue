@@ -1,9 +1,5 @@
-<template>
-  <Tutorial />
-</template>
-
-<script>
-export default {
-  name: 'IndexPage',
-}
-</script>
+ <template>
+      <div>
+        <h1>Events</h1>
+      </div>
+    </template>
