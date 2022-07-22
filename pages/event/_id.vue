@@ -31,18 +31,13 @@
         <b>{{ attendee.name }}</b>
       </li>
     </ul>
-<<<<<<< HEAD
+
     <brk-button text="Baraka" link="http://google.com"></brk-button>
-=======
->>>>>>> be3dad11f43ba812b99dc41b61910450836a58e3
+
   </div>
 </template>
 <script>
 import { mapState } from 'vuex'
-<<<<<<< HEAD
-
-=======
->>>>>>> be3dad11f43ba812b99dc41b61910450836a58e3
 export default {
   head() {
     return {
