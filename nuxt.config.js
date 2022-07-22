@@ -16,13 +16,19 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+      //{ hid: 'baraka', src: '~/baraka/baraka.js',  async: true, defer: true }
+    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['~/public/css/options-variables.css','~/public/css/decisions-jel-variables.css' ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    '~/plugins/baraka.client.js', // only in client side
+    //'~/plugins/baraka-vue.js' 
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

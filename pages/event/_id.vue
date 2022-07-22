@@ -31,10 +31,12 @@
         <b>{{ attendee.name }}</b>
       </li>
     </ul>
+    <brk-button text="Baraka" link="http://google.com"></brk-button>
   </div>
 </template>
 <script>
 import { mapState } from 'vuex'
+
 export default {
   head() {
     return {
@@ -48,6 +50,9 @@ export default {
       ]
     }
   },
+  script: [
+
+  ],
   async fetch({ store, error, params }) {
     try {
       await store.dispatch('events/fetchEvent', params.id)
