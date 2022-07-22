@@ -51,12 +51,6 @@ export default {
       ]
     }
   },
-<<<<<<< HEAD
-  script: [
-
-  ],
-=======
->>>>>>> be3dad11f43ba812b99dc41b61910450836a58e3
   async fetch({ store, error, params }) {
     try {
       await store.dispatch('events/fetchEvent', params.id)
